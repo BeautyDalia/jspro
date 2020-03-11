@@ -7,6 +7,11 @@ import time
 import json
 
 
+"""
+新浪微博
+"""
+
+
 def sinawb_login(u, p):
     with open('sinawb.js', encoding="utf-8") as f:
         js_code = f.read()
@@ -91,4 +96,4 @@ def sinawb_login(u, p):
     print(login_res.text)
 
 
-sinawb_login('18518987852', '4daohaosiquanjia')
+sinawb_login('13111111111', '111111111')
