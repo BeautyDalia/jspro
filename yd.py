@@ -9,7 +9,7 @@ import time
 
 
 def yd_login(u, p):
-    with open('yd.js', encoding='utf-8', errors='ignore') as f:
+    with open('yd.js', encoding='gbk', errors='ignore') as f:
         js_code = f.read()
 
     c = execjs.compile(js_code)
