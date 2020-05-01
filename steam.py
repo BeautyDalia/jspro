@@ -73,7 +73,7 @@ class LoginSteam(object):
             "remember_login": "false",
         }
         res = requests.post(url, headers=headers, data=data, timeout=3)
-        print(res.text)
+        print(res.text.encode('utf-8').decode('unicode_escape'))    # unicode转中文
         return res.text
 
 
