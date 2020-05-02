@@ -1,2 +1,4 @@
-"username": "13113111311",
-"password": "SSatKzA//SmrQOBlVxCZlVmB4WrIgBNyWlUiYelHU6PhfV5+tXc8pJoysrmahrIbnRqDGQ02AjO2pRz2f016Tw==",
+"uName": "1311311131",
+"uType": "203",
+"uPwd": "L1XjY1+VJeAsjOkMcKgKDg==",
+"isRandomPwd": "false",
